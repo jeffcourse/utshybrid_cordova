@@ -1,0 +1,69 @@
+<div class="page" style="background-color:lightyellow;" data-name="readcomic">
+    <div class="navbar">
+        <div class="navbar-inner">
+            <div class="navbar-bg"></div>
+            <div class="left">
+                <a href="#" class="back link icon-only">
+                    <i class="icon icon-back"></i>
+                </a>
+            </div>
+            <div class="title">Read Comic</div>
+        </div>
+    </div>
+    <div class="page-content">
+        <div class="block">
+            <div class="list simple-list">
+                <ul id="ul_readlist"></ul>
+            </div>
+        </div>
+        <div class="block" id="rating" style="font-size: 18px; font-family: sans-serif;"></div>
+        <div class="block" id="jmlRating" style="font-size: 18px; font-family: sans-serif;"></div>
+        <div class="block">
+            <a href="#" id="favorite" class="link icon-only">
+                <i class="icon f7-icons">hand_thumbsup</i>
+                <div class="title">&nbsp;&nbsp;Add to Favorite</div>
+            </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#" id="unfavorite" class="link icon-only">
+                <i class="icon f7-icons">hand_thumbsdown</i>
+                <div class="title">&nbsp;&nbsp;Remove from Favorite</div>
+            </a>
+        <div class="block">
+            <p style="font-size: 16px;">Input Rating: </p>
+                <div class="item-input-wrap" style="float:left;">
+                    <input style=" width:100px; height:25px; background-color: yellow; border-radius: 5px; border-color: black;" id= "txt_rating" type="number" min="1" max="5" placeholder="Input Rating">
+                    <span class="input-clear-button"></span>
+                </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input style="border:none;
+            background:none;
+            background-color:#585858;
+            width: 100px;
+            height: 30px;
+            color:white;
+            border-radius:3px;
+            font-size:16px;" type="submit" value="Submit" id="btnsubmit" name="btnsubmit"><br><br>
+        </div>
+        <div class="block">
+            <p style="font-size: 16px;">Input Comment: </p>
+                <div class="item-input-wrap" style="float:left;">
+                    <textarea style="width: 400px; background-color:aqua; border-radius: 5px; border-color: black;" id= "txt_comment" placeholder="Input Comment"></textarea>
+                    <span class="input-clear-button"></span>
+                </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input style="border:none;
+            background:none;
+            background-color: lime;
+            width: 100px;
+            height: 30px;
+            color:white;
+            border-radius:3px;
+            font-size:16px;" type="submit" value="Submit" id="btnadd" name="btnadd"><br><br><br>
+        </div>
+        <div class="block">
+            <p style="font-size: 18px; font-family: sans-serif;" id="jmlComment"></p>
+                <div class="list simple-list">
+                    <ul style="background-color:darkcyan; border-radius: 5px; border-color: black;" id="ul_comments"></ul>
+                </div>
+        </div>
+        </div>
+        </div>
+    </div>
+</div>
